@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# fahrlehrer-stellenangebote.de - Fahrlehrer Stellenangebote
+
+> fahrlehrer-stellenangebote.de ist ein spezialisiertes Jobportal fuer Fahrlehrer-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Fahrlehrer
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://fahrlehrer-stellenangebote.de
+- Arbeitgeber-Kontakt: https://fahrlehrer-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://fahrlehrer-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Fahrlehrer-Stellenangebote
+- Karriere-Ratgeber fuer Fahrlehrer
+- Gehaltsvergleiche und Brancheninformationen
