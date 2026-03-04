@@ -7,33 +7,228 @@ import { JobListing } from '../types';
 const MOCK_JOBS: JobListing[] = [
   {
     id: '1',
-    title: 'Fahrlehrer Klasse BE (m/w/d) in Vollzeit',
-    company: 'Fahrschule Müller & Söhne',
-    location: 'Berlin, Mitte',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Thomas Ehlenbeck Fahrschule',
+    location: 'Potsdam',
     type: 'Vollzeit',
-    classes: ['B', 'BE'],
-    postedDate: 'Vor 2 Tagen',
-    description: 'Wir suchen Verstärkung...'
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-03-02'
   },
   {
     id: '2',
-    title: 'Ausbilder für Fahrlehreranwärter',
-    company: 'Verkehrsakademie Nord',
-    location: 'Hamburg',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule Ronald Müller',
+    location: 'Zinnowitz, Ostseebad',
     type: 'Vollzeit',
-    classes: ['A', 'BE', 'CE'],
-    postedDate: 'Vor 3 Tagen',
-    description: 'Leiten Sie die nächste Generation an...'
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-02'
   },
   {
     id: '3',
-    title: 'Fahrlehrer/in zur Aushilfe',
-    company: 'DriveSafe GmbH',
-    location: 'München',
-    type: 'Teilzeit',
-    classes: ['B'],
-    postedDate: 'Heute',
-    description: 'Flexible Arbeitszeiten am Wochenende...'
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule NOHA',
+    location: 'Linz',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-01'
+  },
+  {
+    id: '4',
+    title: 'Fahrlehrer/in',
+    company: 'my friends DEINE FAHRSCHULE',
+    location: 'Ottensheim',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '5',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Fahrschule Beckmann Inh. Gerrit Beckmann',
+    location: 'Schlüchtern',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '6',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Töff-Töff GmbH',
+    location: 'Pfullingen',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-26'
+  },
+  {
+    id: '7',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'AWB Abfallwirtschaftsbetriebe Köln GmbH',
+    location: 'Köln',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-18'
+  },
+  {
+    id: '8',
+    title: 'Fahrlehrer m/w/d',
+    company: 'Tommy\'s Fahrschule',
+    location: 'Barsinghausen',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer m/w/d',
+    postedDate: '2026-02-17'
+  },
+  {
+    id: '9',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Mobilitätsakademie&Fahrschule Andrea Wolf',
+    location: 'Bad Kreuznach',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-17'
+  },
+  {
+    id: '10',
+    title: 'Fahrlehrer/in',
+    company: 'U3ver',
+    location: 'Wien,Rudolfsheim-Fünfhaus',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-02-16'
+  },
+  {
+    id: '11',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule Oliver - Inh. D. Nedeljkovic',
+    location: 'Wels',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-02-13'
+  },
+  {
+    id: '12',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Jan König Fahrschule Cars & Bikes',
+    location: 'Bad Lobenstein',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-12'
+  },
+  {
+    id: '13',
+    title: 'Fahrlehrer/in (m/w/d)',
+    company: 'Easy-Drive GmbH',
+    location: 'Dessau-Roßlau',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in (m/w/d)',
+    postedDate: '2026-02-10'
+  },
+  {
+    id: '14',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule Wien Nord',
+    location: 'Wien,Donaustadt',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-02-09'
+  },
+  {
+    id: '15',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Fahrschule Belau',
+    location: 'Bremen',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-05'
+  },
+  {
+    id: '16',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule "Columbus"',
+    location: 'Wien,Leopoldstadt',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-02-05'
+  },
+  {
+    id: '17',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Mission Personal GmbH',
+    location: 'Dresden',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-05'
+  },
+  {
+    id: '18',
+    title: 'Fahrlehrer*in (m/w/d)',
+    company: 'damago GmbH',
+    location: 'Hamburg',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer*in (m/w/d)',
+    postedDate: '2026-02-02'
+  },
+  {
+    id: '19',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule Favoriten',
+    location: 'Wien,Favoriten',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-01-29'
+  },
+  {
+    id: '20',
+    title: 'Fahrlehrer/in',
+    company: 'SCHOPPER Klaus Ing.',
+    location: 'Eisenstadt',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-01-29'
+  },
+  {
+    id: '21',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Björn Schweinhagen',
+    location: 'Harzgerode',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-01-29'
+  },
+  {
+    id: '22',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule Schottenring',
+    location: 'Wien,Innere Stadt',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-01-26'
+  },
+  {
+    id: '23',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Fahrschule Wolf',
+    location: 'Rotenburg an der Fulda',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-01-23'
+  },
+  {
+    id: '24',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule Rath e.U.',
+    location: 'Melk',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-01-21'
+  },
+  {
+    id: '25',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule Philip Staudinge r e.U.',
+    location: 'Kirchdorf an der Krems',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-01-20'
   }
 ];
 
