@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "fahrlehrer-stellenangebote.de",
+  "url": "https://fahrlehrer-stellenangebote.de",
+  "description": "Spezialisiertes Jobportal fuer Fahrlehrer-Stellenangebote in Deutschland, Oesterreich und der Schweiz.",
+  "logo": "https://fahrlehrer-stellenangebote.de/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "availableLanguage": [
+      "German",
+      "English"
+    ]
+  },
+  "sameAs": []
+}

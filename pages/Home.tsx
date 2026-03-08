@@ -7,6 +7,78 @@ import { JobListing } from '../types';
 const MOCK_JOBS: JobListing[] = [
   {
     id: '1',
+    title: 'Einrichtungsfachberater (m/w/d)',
+    company: 'Wohn Schick GmbH + Co. KGSofort-Bewerbung',
+    location: 'Haigerloch',
+    type: 'Vollzeit',
+    description: 'Einrichtungsfachberater (m/w/d)',
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '2',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Weißenburg i. Bayern',
+    type: 'Vollzeit',
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '3',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '4',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '5',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '6',
+    title: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
+    company: 'Nephrocare Salzgitter GmbH Medizinisches Versorgungszentrum',
+    location: 'Salzgitter',
+    type: 'Vollzeit',
+    description: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '7',
+    title: 'Fahrlehrer/in',
+    company: 'driveZone GmbH EASY DRIVERS',
+    location: 'Enns',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '8',
+    title: 'Fahrlehrer/in',
+    company: 'drivemistelbach - Fahrschul e Mistelbach e.U.',
+    location: 'Mistelbach',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '9',
     title: 'Fahrlehrer (m/w/d)',
     company: 'Thomas Ehlenbeck Fahrschule',
     location: 'Potsdam',
@@ -15,7 +87,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '2',
+    id: '10',
     title: 'Fahrlehrer/in',
     company: 'Fahrschule Ronald Müller',
     location: 'Zinnowitz, Ostseebad',
@@ -24,7 +96,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '3',
+    id: '11',
     title: 'Fahrlehrer/in',
     company: 'Fahrschule NOHA',
     location: 'Linz',
@@ -33,7 +105,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-01'
   },
   {
-    id: '4',
+    id: '12',
     title: 'Fahrlehrer/in',
     company: 'my friends DEINE FAHRSCHULE',
     location: 'Ottensheim',
@@ -42,7 +114,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '5',
+    id: '13',
     title: 'Fahrlehrer (m/w/d)',
     company: 'Fahrschule Beckmann Inh. Gerrit Beckmann',
     location: 'Schlüchtern',
@@ -51,7 +123,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '6',
+    id: '14',
     title: 'Fahrlehrer (m/w/d)',
     company: 'Töff-Töff GmbH',
     location: 'Pfullingen',
@@ -60,7 +132,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-26'
   },
   {
-    id: '7',
+    id: '15',
     title: 'Fahrlehrer (m/w/d)',
     company: 'AWB Abfallwirtschaftsbetriebe Köln GmbH',
     location: 'Köln',
@@ -69,7 +141,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-18'
   },
   {
-    id: '8',
+    id: '16',
     title: 'Fahrlehrer m/w/d',
     company: 'Tommy\'s Fahrschule',
     location: 'Barsinghausen',
@@ -78,7 +150,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-17'
   },
   {
-    id: '9',
+    id: '17',
     title: 'Fahrlehrer (m/w/d)',
     company: 'Mobilitätsakademie&Fahrschule Andrea Wolf',
     location: 'Bad Kreuznach',
@@ -87,7 +159,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-17'
   },
   {
-    id: '10',
+    id: '18',
     title: 'Fahrlehrer/in',
     company: 'U3ver',
     location: 'Wien,Rudolfsheim-Fünfhaus',
@@ -96,7 +168,25 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-16'
   },
   {
-    id: '11',
+    id: '19',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'L.T.G. Langenlonsheimer Transport GmbH',
+    location: 'Langenlonsheim',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-13'
+  },
+  {
+    id: '20',
+    title: 'Ausbilder (m/w/d) in der Fahrschule',
+    company: 'L.T.G. Langenlonsheimer Transport GmbH',
+    location: 'Langenlonsheim',
+    type: 'Vollzeit',
+    description: 'Ausbilder (m/w/d) in der Fahrschule',
+    postedDate: '2026-02-13'
+  },
+  {
+    id: '21',
     title: 'Fahrlehrer/in',
     company: 'Fahrschule Oliver - Inh. D. Nedeljkovic',
     location: 'Wels',
@@ -105,7 +195,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-13'
   },
   {
-    id: '12',
+    id: '22',
     title: 'Fahrlehrer (m/w/d)',
     company: 'Jan König Fahrschule Cars & Bikes',
     location: 'Bad Lobenstein',
@@ -114,7 +204,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-12'
   },
   {
-    id: '13',
+    id: '23',
     title: 'Fahrlehrer/in (m/w/d)',
     company: 'Easy-Drive GmbH',
     location: 'Dessau-Roßlau',
@@ -123,7 +213,7 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-10'
   },
   {
-    id: '14',
+    id: '24',
     title: 'Fahrlehrer/in',
     company: 'Fahrschule Wien Nord',
     location: 'Wien,Donaustadt',
@@ -132,103 +222,13 @@ const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-09'
   },
   {
-    id: '15',
+    id: '25',
     title: 'Fahrlehrer (m/w/d)',
     company: 'Fahrschule Belau',
     location: 'Bremen',
     type: 'Vollzeit',
     description: 'Fahrlehrer (m/w/d)',
     postedDate: '2026-02-05'
-  },
-  {
-    id: '16',
-    title: 'Fahrlehrer/in',
-    company: 'Fahrschule "Columbus"',
-    location: 'Wien,Leopoldstadt',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer/in',
-    postedDate: '2026-02-05'
-  },
-  {
-    id: '17',
-    title: 'Fahrlehrer (m/w/d)',
-    company: 'Mission Personal GmbH',
-    location: 'Dresden',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer (m/w/d)',
-    postedDate: '2026-02-05'
-  },
-  {
-    id: '18',
-    title: 'Fahrlehrer*in (m/w/d)',
-    company: 'damago GmbH',
-    location: 'Hamburg',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer*in (m/w/d)',
-    postedDate: '2026-02-02'
-  },
-  {
-    id: '19',
-    title: 'Fahrlehrer/in',
-    company: 'Fahrschule Favoriten',
-    location: 'Wien,Favoriten',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer/in',
-    postedDate: '2026-01-29'
-  },
-  {
-    id: '20',
-    title: 'Fahrlehrer/in',
-    company: 'SCHOPPER Klaus Ing.',
-    location: 'Eisenstadt',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer/in',
-    postedDate: '2026-01-29'
-  },
-  {
-    id: '21',
-    title: 'Fahrlehrer (m/w/d)',
-    company: 'Björn Schweinhagen',
-    location: 'Harzgerode',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer (m/w/d)',
-    postedDate: '2026-01-29'
-  },
-  {
-    id: '22',
-    title: 'Fahrlehrer/in',
-    company: 'Fahrschule Schottenring',
-    location: 'Wien,Innere Stadt',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer/in',
-    postedDate: '2026-01-26'
-  },
-  {
-    id: '23',
-    title: 'Fahrlehrer (m/w/d)',
-    company: 'Fahrschule Wolf',
-    location: 'Rotenburg an der Fulda',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer (m/w/d)',
-    postedDate: '2026-01-23'
-  },
-  {
-    id: '24',
-    title: 'Fahrlehrer/in',
-    company: 'Fahrschule Rath e.U.',
-    location: 'Melk',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer/in',
-    postedDate: '2026-01-21'
-  },
-  {
-    id: '25',
-    title: 'Fahrlehrer/in',
-    company: 'Fahrschule Philip Staudinge r e.U.',
-    location: 'Kirchdorf an der Krems',
-    type: 'Vollzeit',
-    description: 'Fahrlehrer/in',
-    postedDate: '2026-01-20'
   }
 ];
 
