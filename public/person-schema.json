@@ -6,7 +6,7 @@
   "jobTitle": "Gruender & Geschaeftsfuehrer",
   "worksFor": {
     "@type": "Organization",
-    "name": "fahrlehrer-stellenangebote.de",
+    "name": "Social Media Venture GmbH",
     "url": "https://fahrlehrer-stellenangebote.de"
   },
   "description": "Gruender von fahrlehrer-stellenangebote.de - spezialisiertes Jobportal fuer Fahrlehrer-Stellenangebote.",
@@ -14,6 +14,10 @@
     "Fahrlehrer",
     "Personalwesen",
     "Recruiting",
-    "Jobportale"
+    "Jobportale",
+    "HR-Tech"
+  ],
+  "sameAs": [
+    "https://de.linkedin.com/in/thomas-sander-520676303"
   ]
 }

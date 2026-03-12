@@ -1,17 +1,28 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "fahrlehrer-stellenangebote.de",
+  "name": "Social Media Venture GmbH",
   "url": "https://fahrlehrer-stellenangebote.de",
   "description": "Spezialisiertes Jobportal fuer Fahrlehrer-Stellenangebote in Deutschland, Oesterreich und der Schweiz.",
   "logo": "https://fahrlehrer-stellenangebote.de/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Schliemannstrasse 23",
+    "addressLocality": "Berlin",
+    "postalCode": "10437",
+    "addressCountry": "DE"
+  },
+  "telephone": "+49 30 959 988 700",
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer service",
+    "telephone": "+49 30 959 988 700",
     "availableLanguage": [
       "German",
       "English"
     ]
   },
-  "sameAs": []
+  "sameAs": [
+    "https://de.linkedin.com/in/thomas-sander-520676303"
+  ]
 }

@@ -1,19 +1,38 @@
 # HR-UPDATER: v1.0
 # fahrlehrer-stellenangebote.de - Fahrlehrer Stellenangebote
 
-> fahrlehrer-stellenangebote.de ist ein spezialisiertes Jobportal fuer Fahrlehrer-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> fahrlehrer-stellenangebote.de ist ein spezialisiertes Jobportal fuer Fahrlehrer-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Fahrlehrer
+- Spezialisiertes Jobportal fuer Fahrlehrer und Fahrschulen
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Karriere-Ratgeber mit Gehaltsinformationen und Ausbildungsinfos
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin
+- Telefon: +49 30 959 988 700
+- Website: https://fahrlehrer-stellenangebote.de
 
 ## Kontakt
-- Website: https://fahrlehrer-stellenangebote.de
-- Arbeitgeber-Kontakt: https://fahrlehrer-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://fahrlehrer-stellenangebote.de/kontakt-bewerber
+- E-Mail: info@socialmediaventure.com
+- Telefon: +49 30 959 988 700
+- LinkedIn: https://de.linkedin.com/in/thomas-sander-520676303
 
 ## Inhalte
-- Aktuelle Fahrlehrer-Stellenangebote
-- Karriere-Ratgeber fuer Fahrlehrer
+- Aktuelle Fahrlehrer-Stellenangebote in ganz Deutschland
+- Karriere-Ratgeber fuer Fahrlehrer (Ausbildung, Gehalt, Voraussetzungen)
+- Informationen fuer Arbeitgeber und Fahrschulen
 - Gehaltsvergleiche und Brancheninformationen
+- Regionale Stellenangebote in allen deutschen Grossstaedten
+
+## Seiten
+- Startseite: https://fahrlehrer-stellenangebote.de/
+- Stellenangebote: https://fahrlehrer-stellenangebote.de/#/jobs
+- Fuer Arbeitgeber: https://fahrlehrer-stellenangebote.de/#/employer
+- Karriere-Ratgeber: https://fahrlehrer-stellenangebote.de/#/career
+- Impressum: https://fahrlehrer-stellenangebote.de/#/impressum
+- Datenschutz: https://fahrlehrer-stellenangebote.de/#/datenschutz
+- Autor: https://fahrlehrer-stellenangebote.de/#/autor/thomas-sander
