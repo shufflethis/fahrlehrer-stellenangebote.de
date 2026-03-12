@@ -1,11 +1,17 @@
 import { GoogleGenAI } from "@google/genai";
 
-const getAiClient = () => {
-  const apiKey = process.env.API_KEY;
-  if (!apiKey) {
-    console.warn("API Key is missing in process.env");
+const getAiClient = (): GoogleGenAI | null => {
+  try {
+    const apiKey = process.env.API_KEY;
+    if (!apiKey) {
+      console.warn("API Key is missing in process.env");
+      return null;
+    }
+    return new GoogleGenAI({ apiKey });
+  } catch (error) {
+    console.error("Failed to initialize GoogleGenAI:", error);
+    return null;
   }
-  return new GoogleGenAI({ apiKey: apiKey || 'dummy-key-for-types' });
 };
 
 export const generateJobDescription = async (
@@ -15,7 +21,10 @@ export const generateJobDescription = async (
   benefits: string
 ): Promise<string> => {
   const ai = getAiClient();
-  
+  if (!ai) {
+    return "Der KI-Assistent ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.";
+  }
+
   const prompt = `
     Erstelle eine professionelle, ansprechende Stellenanzeige für einen Fahrlehrer (m/w/d).
     Verwende HTML-Tags (<h3>, <p>, <ul>, <li>) für die Formatierung, aber KEINE Markdown-Backticks.
@@ -47,6 +56,9 @@ export const generateJobDescription = async (
 
 export const generateInterviewQuestions = async (): Promise<string> => {
     const ai = getAiClient();
+    if (!ai) {
+      return "Der KI-Assistent ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.";
+    }
     try {
         const response = await ai.models.generateContent({
             model: 'gemini-2.5-flash',
