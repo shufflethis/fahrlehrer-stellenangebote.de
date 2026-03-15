@@ -7,203 +7,228 @@ import { JobListing } from '../types';
 const MOCK_JOBS: JobListing[] = [
   {
     id: '1',
-    title: 'Fahrlehrer (m/w/d) Klasse B',
-    company: 'Fahrschule Meier GmbH',
-    location: 'Berlin',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    company: 'Medisca GmbH',
+    location: 'Kabelsketal',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Fahrlehrer (m/w/d) Klasse B gesucht fuer moderne Fahrschule in Berlin.',
-    postedDate: '2026-03-10'
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    postedDate: '2026-03-15'
   },
   {
     id: '2',
-    title: 'Fahrlehrer (m/w/d) Klasse A und B',
-    company: 'Fahrschule Schmidt',
-    location: 'Hamburg',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
     type: 'Vollzeit',
-    classes: ['A', 'B'],
-    description: 'Fahrlehrer (m/w/d) Klasse A und B in Hamburg gesucht.',
-    postedDate: '2026-03-09'
+    description: 'Zahnarzt (m/w/d)',
+    postedDate: '2026-03-15'
   },
   {
     id: '3',
-    title: 'Fahrlehrer/in Klasse CE',
-    company: 'LKW-Fahrschule Brauer',
-    location: 'München',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
     type: 'Vollzeit',
-    classes: ['CE'],
-    description: 'Fahrlehrer/in fuer LKW-Ausbildung Klasse CE in München.',
-    postedDate: '2026-03-09'
+    description: 'Zahnarzt (m/w/d)',
+    postedDate: '2026-03-15'
   },
   {
     id: '4',
-    title: 'Fahrlehrer (m/w/d)',
-    company: 'Thomas Ehlenbeck Fahrschule',
-    location: 'Potsdam',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Fahrlehrer (m/w/d) in Potsdam gesucht.',
-    postedDate: '2026-03-08'
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedDate: '2026-03-15'
   },
   {
     id: '5',
-    title: 'Fahrlehrer/in Klasse B und BE',
-    company: 'Fahrschule am Stadtpark',
-    location: 'Köln',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
     type: 'Vollzeit',
-    classes: ['B', 'BE'],
-    description: 'Fahrlehrer/in Klasse B und BE in Köln.',
-    postedDate: '2026-03-07'
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedDate: '2026-03-15'
   },
   {
     id: '6',
-    title: 'Fahrlehrer (m/w/d) Klasse A, B, CE',
-    company: 'Fahrschule Beckmann Inh. Gerrit Beckmann',
-    location: 'Schlüchtern',
+    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    company: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    location: 'Köln',
     type: 'Vollzeit',
-    classes: ['A', 'B', 'CE'],
-    description: 'Fahrlehrer (m/w/d) fuer alle Klassen in Schlüchtern.',
-    postedDate: '2026-03-06'
+    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    postedDate: '2026-03-15'
   },
   {
     id: '7',
     title: 'Fahrlehrer/in',
-    company: 'driveZone GmbH EASY DRIVERS',
-    location: 'Frankfurt am Main',
+    company: 'Fahrschule Alterlaa',
+    location: 'Wien,Liesing',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Fahrlehrer/in in Frankfurt gesucht.',
-    postedDate: '2026-03-05'
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-13'
   },
   {
     id: '8',
-    title: 'Fahrlehrer (m/w/d) Klasse DE',
-    company: 'Busfahrschule Zentral GmbH',
-    location: 'Stuttgart',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule Donaustadt',
+    location: 'Wien,Donaustadt',
     type: 'Vollzeit',
-    classes: ['DE'],
-    description: 'Fahrlehrer (m/w/d) fuer Busausbildung Klasse DE in Stuttgart.',
-    postedDate: '2026-03-04'
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-12'
   },
   {
     id: '9',
-    title: 'Fahrlehrer/in Klasse B',
-    company: 'Fahrschule Ronald Müller',
-    location: 'Düsseldorf',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'ToTo77 GmbH Fahrschule',
+    location: 'Dormagen',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Fahrlehrer/in in Düsseldorf gesucht.',
-    postedDate: '2026-03-03'
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-03-12'
   },
   {
     id: '10',
     title: 'Fahrlehrer (m/w/d)',
-    company: 'Töff-Töff GmbH',
-    location: 'Dortmund',
+    company: 'Fahrschule Schmidt GbR',
+    location: 'Gunzenhausen am Altmühlsee',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Fahrlehrer (m/w/d) in Dortmund gesucht.',
-    postedDate: '2026-03-02'
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-03-11'
   },
   {
     id: '11',
-    title: 'Fahrlehrer/in Klasse A und B',
-    company: 'Fahrschule NOHA',
-    location: 'Leipzig',
+    title: 'Fahrlehrer/in m/w/d',
+    company: 'Fahrschule Klein GmbH',
+    location: 'Ansbach, Mittelfranken',
     type: 'Vollzeit',
-    classes: ['A', 'B'],
-    description: 'Fahrlehrer/in in Leipzig gesucht.',
-    postedDate: '2026-03-01'
+    description: 'Fahrlehrer/in m/w/d',
+    postedDate: '2026-03-11'
   },
   {
     id: '12',
-    title: 'Fahrlehrer (m/w/d) Klasse B',
-    company: 'my friends DEINE FAHRSCHULE',
-    location: 'Dresden',
+    title: 'Einrichtungsfachberater (m/w/d)',
+    company: 'Wohn Schick GmbH + Co. KGSofort-Bewerbung',
+    location: 'Haigerloch',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Fahrlehrer (m/w/d) in Dresden gesucht.',
-    postedDate: '2026-02-28'
+    description: 'Einrichtungsfachberater (m/w/d)',
+    postedDate: '2026-03-08'
   },
   {
     id: '13',
-    title: 'Fahrlehrer (m/w/d) Klasse CE',
-    company: 'AWB Abfallwirtschaftsbetriebe Köln GmbH',
-    location: 'Köln',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Weißenburg i. Bayern',
     type: 'Vollzeit',
-    classes: ['CE'],
-    description: 'Fahrlehrer (m/w/d) fuer LKW-Ausbildung in Köln.',
-    postedDate: '2026-02-27'
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedDate: '2026-03-08'
   },
   {
     id: '14',
-    title: 'Fahrlehrer m/w/d',
-    company: 'Tommy\'s Fahrschule',
-    location: 'Hannover',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Nürnberg',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Fahrlehrer m/w/d in Hannover gesucht.',
-    postedDate: '2026-02-26'
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedDate: '2026-03-08'
   },
   {
     id: '15',
-    title: 'Fahrlehrer (m/w/d)',
-    company: 'Mobilitätsakademie & Fahrschule Andrea Wolf',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
     location: 'Nürnberg',
     type: 'Vollzeit',
-    classes: ['B', 'A'],
-    description: 'Fahrlehrer (m/w/d) in Nürnberg gesucht.',
-    postedDate: '2026-02-25'
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedDate: '2026-03-08'
   },
   {
     id: '16',
-    title: 'Fahrlehrer (m/w/d)',
-    company: 'L.T.G. Langenlonsheimer Transport GmbH',
-    location: 'Bremen',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'München',
     type: 'Vollzeit',
-    classes: ['B', 'CE'],
-    description: 'Fahrlehrer (m/w/d) in Bremen gesucht.',
-    postedDate: '2026-02-24'
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedDate: '2026-03-08'
   },
   {
     id: '17',
-    title: 'Ausbilder (m/w/d) in der Fahrschule',
-    company: 'Fahrschule Belau',
-    location: 'Essen',
+    title: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
+    company: 'Nephrocare Salzgitter GmbH Medizinisches Versorgungszentrum',
+    location: 'Salzgitter',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Ausbilder (m/w/d) in der Fahrschule in Essen gesucht.',
-    postedDate: '2026-02-23'
+    description: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
+    postedDate: '2026-03-08'
   },
   {
     id: '18',
-    title: 'Fahrlehrer/in (m/w/d)',
-    company: 'Easy-Drive GmbH',
-    location: 'Mannheim',
+    title: 'Fahrlehrer/in',
+    company: 'driveZone GmbH EASY DRIVERS',
+    location: 'Enns',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Fahrlehrer/in (m/w/d) in Mannheim gesucht.',
-    postedDate: '2026-02-22'
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-05'
   },
   {
     id: '19',
-    title: 'Fahrlehrer (m/w/d) Klasse A',
-    company: 'Jan König Fahrschule Cars & Bikes',
-    location: 'Augsburg',
+    title: 'Fahrlehrer/in',
+    company: 'drivemistelbach - Fahrschul e Mistelbach e.U.',
+    location: 'Mistelbach',
     type: 'Vollzeit',
-    classes: ['A'],
-    description: 'Fahrlehrer (m/w/d) Motorrad-Ausbildung in Augsburg.',
-    postedDate: '2026-02-20'
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-04'
   },
   {
     id: '20',
     title: 'Fahrlehrer (m/w/d)',
-    company: 'Fahrschule Zentral',
-    location: 'Karlsruhe',
+    company: 'Thomas Ehlenbeck Fahrschule',
+    location: 'Potsdam',
     type: 'Vollzeit',
-    classes: ['B'],
-    description: 'Fahrlehrer (m/w/d) in Karlsruhe gesucht.',
-    postedDate: '2026-02-18'
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '21',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule Ronald Müller',
+    location: 'Zinnowitz, Ostseebad',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '22',
+    title: 'Fahrlehrer/in',
+    company: 'Fahrschule NOHA',
+    location: 'Linz',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-03-01'
+  },
+  {
+    id: '23',
+    title: 'Fahrlehrer/in',
+    company: 'my friends DEINE FAHRSCHULE',
+    location: 'Ottensheim',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer/in',
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '24',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Fahrschule Beckmann Inh. Gerrit Beckmann',
+    location: 'Schlüchtern',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '25',
+    title: 'Fahrlehrer (m/w/d)',
+    company: 'Töff-Töff GmbH',
+    location: 'Pfullingen',
+    type: 'Vollzeit',
+    description: 'Fahrlehrer (m/w/d)',
+    postedDate: '2026-02-26'
   }
 ];
 
